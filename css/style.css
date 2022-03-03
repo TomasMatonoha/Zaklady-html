@@ -48,3 +48,8 @@ body {
     background-color: rgba(0, 0, 0, 0.082);
     
 }
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
