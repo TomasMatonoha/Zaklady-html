@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Základy HTML</title>
+  </head>
+  <body>
+    <h1>Příprava na praktickou prověrku</h1>
+    <ul class="list">
+      <li><a href="#textupr">Textové úpravy</a></li>
+      <li><a href="#tabulka">Tabulka</a></li>
+    </ul>
+    <h2 id="textupr">Textové úpravy</h2>
+    <h3>Adresy používané na internetu</h3>
+    <p>IP adresa je v informatice číslo, které jednoznačně <b>identifikuje síťové rozhraní v počítačové síti, která používá IP protokol</b>. V současné době je nejrozšířenější <mark>IPv4</mark>, která používá 32bitové IP adresy, které jsou zapisovány dekadicky po jednotlivých oktetech (tj. po osmicích bitů), například 192.168.0.2</p>
+    <h3>Seznam významných termínů a zkratek</h3>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Language</dd>
+      <dt>HTTP</dt>
+      <dd>Hypertext Transfer Protocol</dd>
+      <dt>Validátor</dt>
+      <dd>Program pro kontorlu platnosti dokumentu</dd>
+      <dt>Server</dt>
+      <dd>
+        Počítač, který poskytuje nějaké služby, nebo počítačový program, který
+        tyto služby realizuje
+      </dd>
+    </dl>
+    <h2 id="tabulka">Tabulka</h2>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">Nečíslovaný seznam</th>
+          <th colspan="2">Prvky stránky</th>
+          <th rowspan="2">Obrázek (Šířka 200px)</th>
+        </tr>
+        <tr>
+          <th>Značky</th>
+          <th>Entity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">
+            <ul>
+              <li>IP Adresa</li>
+              <li>Jmenná adresa</li>
+              <li>URL</li>
+            </ul>
+          </td>
+          <td class="centered">H<sub>2</sub>O</td>
+          <td class="centered">&amp;</td>
+          <td rowspan="2">
+            <img
+              src="./img/200px-American_Psycho_-_Patrick_Bateman.jpg"
+              alt=""
+              class="obrazek"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="centered">c = a&sup2; + b&sup2;</td>
+          <td class="centered">&copy;</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+        <td colspan="2">Odkaz</td>
+        <td colspan="2"><a href="https://www.w3c.org/">www.w3c.org</a></td>
+      </tr>
+    </tfoot>
+    </table>
+    <hr />
+    <footer>&copy;<mark>Josef Spejbl</mark> <b>IT1</b> SŠPU Opava</footer>
+  </body>
+</html>
